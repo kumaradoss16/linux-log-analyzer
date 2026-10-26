@@ -319,6 +319,37 @@ class Handler(BaseHTTPRequestHandler):
                     added += 1
 
             return self._json({"added": added})
+        self._error(HTTPStatus.NOT_FOUND, "not_found")
+
+
+    # Remove a registered log file
+    def do_DELETE(self) -> None:
+        # Apply request checks
+        if not self._host_ok():
+            return self._error(
+                HTTPStatus.FORBIDDEN,
+                "bad Host header"
+            )
+
+        if not self._mutation_ok():
+            return self._error(
+                HTTPStatus.FORBIDDEN,
+                "missing X-Logan header"
+            )
+
+        # Match the file-removal endpoints
+        url = urlparse(self.path)
+        if url.path == "/api/files":
+            fid = parse_qs(url.query).get("id", [""])[0]
+            # Attempt to remove the file
+            if self.server.workspace.remove(fid):
+                return self._json({"ok": True})
+
+            return self._error(
+                HTTPStatus.NOT_FOUND,
+                "no such file"
+            )
+        self._error(HTTPStatus.NOT_FOUND, "not found")
 
 
 
