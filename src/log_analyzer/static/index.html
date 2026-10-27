@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log Analyzer Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <!-- Ambient background scanline & grid texture -->
+  <div class="terminal-grid-overlay" aria-hidden="true"></div>
+
+  <header class="top">
+    <div class="brand">
+      <h1>LOG ANALYZER <span class="term-version">v0.2.0</span></h1>
+      <span id="updated" class="muted">Not loaded yet</span>
+    </div>
+    <div class="actions">
+      <label class="inline"><span class="ctrl-label">Auto-refresh</span>
+        <select id="auto">
+          <option value="0">Off</option>
+          <option value="5">5 s</option>
+          <option value="15">15 s</option>
+          <option value="60">60 s</option>
+        </select>
+      </label>
+      <button id="refresh" type="button" class="btn-primary">Refresh</button>
+      <a class="btn" id="dl-json" href="/api/report.json">Export JSON</a>
+      <a class="btn" id="dl-txt" href="/api/report.txt">Export text</a>
+    </div>
+  </header>
+
+  <main>
+    <div id="warnings" class="banner" hidden></div>
+
+    <section class="panel" id="sources">
+      <div class="panel-head">
+        <div class="panel-title-wrap">
+          <span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          <h2>Data sources</h2>
+        </div>
+        <div class="actions">
+          <button id="samples" type="button" class="btn-action">Load sample data</button>
+          <button id="clear" type="button" class="danger">Clear all</button>
+        </div>
+      </div>
+      <div id="drop" class="drop" tabindex="0" role="button"
+           aria-label="Upload log files: drop files here or press Enter to browse">
+        <div class="drop-corner tl" aria-hidden="true"></div>
+        <div class="drop-corner tr" aria-hidden="true"></div>
+        <div class="drop-corner bl" aria-hidden="true"></div>
+        <div class="drop-corner br" aria-hidden="true"></div>
+        <div class="drop-icon" aria-hidden="true">⇪</div>
+        <p><strong>Drop log files here</strong> or <span class="link">browse</span>
+          <span class="muted">(.log, .gz and rotated logs accepted)</span></p>
+        <label class="inline"><span class="ctrl-label">Treat as</span>
+          <select id="kind">
+            <option value="auto">Auto-detect</option>
+            <option value="auth">Auth log</option>
+            <option value="system">System log</option>
+            <option value="web">Web access log</option>
+          </select>
+        </label>
+        <input id="picker" type="file" multiple hidden>
+      </div>
+      <p id="upload-status" class="muted" role="status"></p>
+      <ul id="files" class="chips"></ul>
+    </section>
+
+    <section class="panel controls">
+      <div class="controls-header" aria-hidden="true">
+        <span class="term-prompt">$ query --filters</span>
+      </div>
+      <div class="controls-inputs">
+        <label><span class="ctrl-label">Top-N rows</span> <input id="top" type="number" min="1" max="100" value="10"></label>
+        <label><span class="ctrl-label">Brute-force threshold</span> <input id="threshold" type="number" min="1" value="5"></label>
+        <label><span class="ctrl-label">Syslog year</span> <input id="year" type="number" min="1970" max="2100" placeholder="auto"></label>
+      </div>
+    </section>
+
+    <div id="empty" class="empty" hidden>
+      <div class="empty-terminal-icon" aria-hidden="true">
+        <pre class="ascii-art">
+┌──────────────────────────────────────┐
+│  [!] NO LOG DATA LOADED              │
+│  > Ready for log file ingestion      │
+└──────────────────────────────────────┘</pre>
+      </div>
+      <h2>No logs loaded</h2>
+      <p>Upload files above, load the sample data, or start the server with
+        <code>logan serve --auth /var/log/auth.log</code>.</p>
+    </div>
+
+    <div id="dash" hidden>
+      <section class="kpis" id="kpis"></section>
+      <div class="range-bar">
+        <span class="range-dot" aria-hidden="true"></span>
+        <p id="range" class="muted"></p>
+      </div>
+
+      <section class="panel" id="alerts-panel">
+        <div class="panel-head">
+          <div class="panel-title-wrap">
+            <span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <h2>Alerts</h2>
+          </div>
+        </div>
+        <div id="alerts"></div>
+      </section>
+
+      <section class="grid two">
+        <div class="panel">
+          <div class="panel-head">
+            <div class="panel-title-wrap">
+              <span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <h2>Activity by hour of day</h2>
+            </div>
+            <div id="hourly-toggles" class="toggles"></div>
+          </div>
+          <div id="hourly" class="chart"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <div class="panel-title-wrap">
+              <span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <h2>Events per day</h2>
+            </div>
+          </div>
+          <div id="daily" class="chart"></div>
+        </div>
+      </section>
+
+      <section class="grid three">
+        <div class="panel"><div class="panel-head"><div class="panel-title-wrap"><span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span><h2>Failed logins by IP</h2></div></div><div id="t-failed-ip"></div></div>
+        <div class="panel"><div class="panel-head"><div class="panel-title-wrap"><span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span><h2>Failed logins by user</h2></div></div><div id="t-failed-user"></div></div>
+        <div class="panel"><div class="panel-head"><div class="panel-title-wrap"><span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span><h2>Successful logins by user</h2></div></div><div id="t-success-user"></div></div>
+        <div class="panel"><div class="panel-head"><div class="panel-title-wrap"><span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span><h2>Top source IPs</h2></div></div><div id="t-top-ip"></div></div>
+        <div class="panel"><div class="panel-head"><div class="panel-title-wrap"><span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span><h2>Auth methods</h2></div></div><div id="t-methods"></div></div>
+        <div class="panel"><div class="panel-head"><div class="panel-title-wrap"><span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span><h2>HTTP status codes</h2></div></div><div id="t-status"></div></div>
+        <div class="panel"><div class="panel-head"><div class="panel-title-wrap"><span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span><h2>System errors by process</h2></div></div><div id="t-sys"></div></div>
+        <div class="panel wide"><div class="panel-head"><div class="panel-title-wrap"><span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span><h2>Web errors (status, path)</h2></div></div><div id="t-web"></div></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="muted">
+    <div class="footer-inner">
+      <span>Use only on logs you own or are authorized to analyze.</span>
+    </div>
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

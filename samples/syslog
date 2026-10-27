@@ -1,0 +1,300 @@
+Oct 19 00:25:40 web01 cron[173]: (CRON) info (No MTA installed)
+Oct 19 00:27:41 web01 kernel[812]: Out of memory: Killed process 2211 (java)
+Oct 19 00:29:30 web01 NetworkManager[804]: <info> device (eth0): state change: activated
+Oct 19 00:38:02 web01 NetworkManager[271]: <info> device (eth0): state change: activated
+Oct 19 00:45:42 web01 systemd[118]: Started Daily apt download activities.
+Oct 19 00:49:43 web01 NetworkManager[787]: <info> device (eth0): state change: activated
+Oct 19 01:04:48 web01 kernel[544]: Out of memory: Killed process 2211 (java)
+Oct 19 01:19:34 web01 NetworkManager[50]: <info> device (eth0): state change: activated
+Oct 19 01:42:07 web01 kernel[652]: Out of memory: Killed process 2211 (java)
+Oct 19 01:43:14 web01 systemd[879]: Started Daily apt download activities.
+Oct 19 01:45:58 web01 NetworkManager[369]: <info> device (eth0): state change: activated
+Oct 19 02:07:55 web01 cron[990]: (CRON) info (No MTA installed)
+Oct 19 02:17:28 web01 NetworkManager[894]: <info> device (eth0): state change: activated
+Oct 19 02:28:58 web01 postfix/smtp[464]: connect to mail.example.com: Connection timed out
+Oct 19 02:46:35 web01 postfix/smtp[569]: connect to mail.example.com: Connection timed out
+Oct 19 02:47:03 web01 systemd[534]: Started Daily apt download activities.
+Oct 19 02:52:46 web01 kernel[594]: Out of memory: Killed process 2211 (java)
+Oct 19 02:56:20 web01 kernel[706]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 02:58:06 web01 kernel[904]: Out of memory: Killed process 2211 (java)
+Oct 19 03:02:14 web01 cron[918]: (CRON) info (No MTA installed)
+Oct 19 03:10:02 web01 cron[108]: (CRON) info (No MTA installed)
+Oct 19 03:35:12 web01 postfix/smtp[259]: connect to mail.example.com: Connection timed out
+Oct 19 03:40:09 web01 systemd[549]: nginx.service: Failed with result 'exit-code'.
+Oct 19 03:44:23 web01 kernel[645]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 03:46:29 web01 postfix/smtp[878]: connect to mail.example.com: Connection timed out
+Oct 19 03:57:05 web01 NetworkManager[404]: <info> device (eth0): state change: activated
+Oct 19 03:57:29 web01 systemd[756]: nginx.service: Failed with result 'exit-code'.
+Oct 19 04:01:38 web01 kernel[817]: Out of memory: Killed process 2211 (java)
+Oct 19 04:06:29 web01 systemd[381]: Started Daily apt download activities.
+Oct 19 04:22:44 web01 systemd[272]: nginx.service: Failed with result 'exit-code'.
+Oct 19 04:30:53 web01 kernel[385]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 04:34:36 web01 systemd[378]: Started Daily apt download activities.
+Oct 19 04:43:08 web01 cron[592]: (CRON) info (No MTA installed)
+Oct 19 04:50:01 web01 systemd[150]: Started Daily apt download activities.
+Oct 19 04:53:09 web01 kernel[369]: Out of memory: Killed process 2211 (java)
+Oct 19 05:07:22 web01 kernel[339]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 05:28:11 web01 kernel[783]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 05:40:30 web01 systemd[84]: nginx.service: Failed with result 'exit-code'.
+Oct 19 05:41:50 web01 kernel[453]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 05:52:51 web01 kernel[236]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 05:54:17 web01 kernel[181]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 05:59:18 web01 postfix/smtp[631]: connect to mail.example.com: Connection timed out
+Oct 19 06:07:21 web01 systemd[762]: nginx.service: Failed with result 'exit-code'.
+Oct 19 06:35:20 web01 cron[981]: (CRON) info (No MTA installed)
+Oct 19 06:38:15 web01 postfix/smtp[50]: connect to mail.example.com: Connection timed out
+Oct 19 06:40:42 web01 NetworkManager[304]: <info> device (eth0): state change: activated
+Oct 19 07:01:16 web01 cron[840]: (CRON) info (No MTA installed)
+Oct 19 07:19:16 web01 postfix/smtp[529]: connect to mail.example.com: Connection timed out
+Oct 19 07:27:05 web01 kernel[260]: Out of memory: Killed process 2211 (java)
+Oct 19 07:39:43 web01 kernel[318]: Out of memory: Killed process 2211 (java)
+Oct 19 07:47:49 web01 kernel[655]: Out of memory: Killed process 2211 (java)
+Oct 19 07:55:44 web01 NetworkManager[990]: <info> device (eth0): state change: activated
+Oct 19 07:56:02 web01 kernel[892]: Out of memory: Killed process 2211 (java)
+Oct 19 07:56:25 web01 systemd[600]: nginx.service: Failed with result 'exit-code'.
+Oct 19 07:58:47 web01 systemd[951]: nginx.service: Failed with result 'exit-code'.
+Oct 19 08:09:54 web01 kernel[680]: Out of memory: Killed process 2211 (java)
+Oct 19 08:14:36 web01 kernel[918]: Out of memory: Killed process 2211 (java)
+Oct 19 08:16:03 web01 NetworkManager[321]: <info> device (eth0): state change: activated
+Oct 19 08:49:22 web01 NetworkManager[751]: <info> device (eth0): state change: activated
+Oct 19 08:57:38 web01 systemd[2]: nginx.service: Failed with result 'exit-code'.
+Oct 19 09:08:58 web01 systemd[766]: nginx.service: Failed with result 'exit-code'.
+Oct 19 09:13:20 web01 NetworkManager[35]: <info> device (eth0): state change: activated
+Oct 19 09:21:13 web01 kernel[227]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 09:35:02 web01 cron[153]: (CRON) info (No MTA installed)
+Oct 19 09:55:00 web01 kernel[298]: Out of memory: Killed process 2211 (java)
+Oct 19 10:17:39 web01 kernel[631]: Out of memory: Killed process 2211 (java)
+Oct 19 10:20:01 web01 cron[641]: (CRON) info (No MTA installed)
+Oct 19 10:37:23 web01 kernel[443]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 10:39:33 web01 cron[428]: (CRON) info (No MTA installed)
+Oct 19 11:01:06 web01 systemd[525]: Started Daily apt download activities.
+Oct 19 11:14:29 web01 systemd[373]: nginx.service: Failed with result 'exit-code'.
+Oct 19 11:24:03 web01 cron[918]: (CRON) info (No MTA installed)
+Oct 19 11:38:46 web01 systemd[49]: nginx.service: Failed with result 'exit-code'.
+Oct 19 11:40:15 web01 postfix/smtp[136]: connect to mail.example.com: Connection timed out
+Oct 19 11:42:04 web01 cron[501]: (CRON) info (No MTA installed)
+Oct 19 11:50:10 web01 systemd[233]: nginx.service: Failed with result 'exit-code'.
+Oct 19 11:55:10 web01 cron[628]: (CRON) info (No MTA installed)
+Oct 19 12:01:22 web01 postfix/smtp[669]: connect to mail.example.com: Connection timed out
+Oct 19 12:03:39 web01 kernel[47]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 12:56:38 web01 cron[23]: (CRON) info (No MTA installed)
+Oct 19 13:04:32 web01 NetworkManager[56]: <info> device (eth0): state change: activated
+Oct 19 13:31:29 web01 systemd[3]: nginx.service: Failed with result 'exit-code'.
+Oct 19 13:42:28 web01 kernel[581]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 13:53:06 web01 systemd[364]: nginx.service: Failed with result 'exit-code'.
+Oct 19 13:57:33 web01 cron[312]: (CRON) info (No MTA installed)
+Oct 19 14:01:27 web01 kernel[109]: Out of memory: Killed process 2211 (java)
+Oct 19 14:07:18 web01 systemd[536]: nginx.service: Failed with result 'exit-code'.
+Oct 19 14:08:06 web01 cron[366]: (CRON) info (No MTA installed)
+Oct 19 14:11:42 web01 postfix/smtp[547]: connect to mail.example.com: Connection timed out
+Oct 19 14:16:49 web01 NetworkManager[230]: <info> device (eth0): state change: activated
+Oct 19 14:21:35 web01 cron[424]: (CRON) info (No MTA installed)
+Oct 19 14:22:11 web01 kernel[598]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 14:29:11 web01 systemd[309]: nginx.service: Failed with result 'exit-code'.
+Oct 19 14:35:37 web01 kernel[604]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 14:51:11 web01 kernel[137]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 14:56:36 web01 cron[210]: (CRON) info (No MTA installed)
+Oct 19 15:06:09 web01 cron[376]: (CRON) info (No MTA installed)
+Oct 19 15:50:54 web01 kernel[639]: Out of memory: Killed process 2211 (java)
+Oct 19 16:06:07 web01 kernel[849]: Out of memory: Killed process 2211 (java)
+Oct 19 16:10:15 web01 systemd[487]: Started Daily apt download activities.
+Oct 19 16:15:43 web01 cron[163]: (CRON) info (No MTA installed)
+Oct 19 16:30:50 web01 cron[138]: (CRON) info (No MTA installed)
+Oct 19 16:35:27 web01 postfix/smtp[15]: connect to mail.example.com: Connection timed out
+Oct 19 16:49:45 web01 NetworkManager[960]: <info> device (eth0): state change: activated
+Oct 19 16:50:55 web01 postfix/smtp[821]: connect to mail.example.com: Connection timed out
+Oct 19 16:57:31 web01 kernel[250]: Out of memory: Killed process 2211 (java)
+Oct 19 17:01:46 web01 kernel[725]: Out of memory: Killed process 2211 (java)
+Oct 19 17:03:13 web01 systemd[153]: nginx.service: Failed with result 'exit-code'.
+Oct 19 17:06:26 web01 postfix/smtp[462]: connect to mail.example.com: Connection timed out
+Oct 19 17:08:55 web01 systemd[99]: nginx.service: Failed with result 'exit-code'.
+Oct 19 17:11:43 web01 kernel[66]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 17:17:12 web01 kernel[654]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 17:38:52 web01 cron[149]: (CRON) info (No MTA installed)
+Oct 19 17:59:25 web01 postfix/smtp[893]: connect to mail.example.com: Connection timed out
+Oct 19 18:03:35 web01 NetworkManager[682]: <info> device (eth0): state change: activated
+Oct 19 18:05:33 web01 NetworkManager[801]: <info> device (eth0): state change: activated
+Oct 19 18:16:50 web01 cron[277]: (CRON) info (No MTA installed)
+Oct 19 18:19:29 web01 systemd[412]: nginx.service: Failed with result 'exit-code'.
+Oct 19 18:21:58 web01 systemd[832]: nginx.service: Failed with result 'exit-code'.
+Oct 19 18:29:59 web01 postfix/smtp[271]: connect to mail.example.com: Connection timed out
+Oct 19 18:30:26 web01 systemd[991]: Started Daily apt download activities.
+Oct 19 18:57:25 web01 systemd[12]: nginx.service: Failed with result 'exit-code'.
+Oct 19 18:59:48 web01 systemd[58]: nginx.service: Failed with result 'exit-code'.
+Oct 19 19:05:26 web01 postfix/smtp[661]: connect to mail.example.com: Connection timed out
+Oct 19 19:17:19 web01 systemd[841]: Started Daily apt download activities.
+Oct 19 19:17:53 web01 NetworkManager[576]: <info> device (eth0): state change: activated
+Oct 19 19:29:27 web01 kernel[915]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 19:44:44 web01 cron[359]: (CRON) info (No MTA installed)
+Oct 19 19:49:45 web01 kernel[609]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 20:01:27 web01 NetworkManager[662]: <info> device (eth0): state change: activated
+Oct 19 20:17:14 web01 kernel[593]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 20:20:42 web01 systemd[455]: Started Daily apt download activities.
+Oct 19 20:29:15 web01 systemd[617]: Started Daily apt download activities.
+Oct 19 20:37:44 web01 systemd[960]: nginx.service: Failed with result 'exit-code'.
+Oct 19 20:37:45 web01 postfix/smtp[531]: connect to mail.example.com: Connection timed out
+Oct 19 20:57:46 web01 NetworkManager[752]: <info> device (eth0): state change: activated
+Oct 19 21:16:15 web01 postfix/smtp[505]: connect to mail.example.com: Connection timed out
+Oct 19 21:24:10 web01 kernel[255]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 21:28:34 web01 kernel[170]: Out of memory: Killed process 2211 (java)
+Oct 19 21:39:23 web01 kernel[926]: Out of memory: Killed process 2211 (java)
+Oct 19 21:57:21 web01 cron[1]: (CRON) info (No MTA installed)
+Oct 19 22:05:12 web01 NetworkManager[46]: <info> device (eth0): state change: activated
+Oct 19 22:07:14 web01 systemd[64]: nginx.service: Failed with result 'exit-code'.
+Oct 19 22:17:52 web01 postfix/smtp[545]: connect to mail.example.com: Connection timed out
+Oct 19 22:23:54 web01 cron[26]: (CRON) info (No MTA installed)
+Oct 19 22:28:43 web01 NetworkManager[416]: <info> device (eth0): state change: activated
+Oct 19 22:42:23 web01 postfix/smtp[191]: connect to mail.example.com: Connection timed out
+Oct 19 22:50:41 web01 NetworkManager[244]: <info> device (eth0): state change: activated
+Oct 19 22:52:45 web01 postfix/smtp[164]: connect to mail.example.com: Connection timed out
+Oct 19 22:54:11 web01 kernel[60]: Out of memory: Killed process 2211 (java)
+Oct 19 23:02:44 web01 kernel[934]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 23:16:07 web01 cron[798]: (CRON) info (No MTA installed)
+Oct 19 23:32:33 web01 kernel[108]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 19 23:34:52 web01 systemd[13]: Started Daily apt download activities.
+Oct 19 23:36:27 web01 kernel[628]: Out of memory: Killed process 2211 (java)
+Oct 19 23:49:46 web01 cron[565]: (CRON) info (No MTA installed)
+Oct 19 23:52:17 web01 cron[673]: (CRON) info (No MTA installed)
+Oct 20 00:36:58 web01 postfix/smtp[964]: connect to mail.example.com: Connection timed out
+Oct 20 00:41:25 web01 kernel[202]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 01:33:05 web01 systemd[146]: Started Daily apt download activities.
+Oct 20 01:58:08 web01 NetworkManager[424]: <info> device (eth0): state change: activated
+Oct 20 02:20:59 web01 NetworkManager[205]: <info> device (eth0): state change: activated
+Oct 20 02:29:23 web01 postfix/smtp[531]: connect to mail.example.com: Connection timed out
+Oct 20 02:50:54 web01 kernel[623]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 03:00:14 web01 postfix/smtp[659]: connect to mail.example.com: Connection timed out
+Oct 20 03:04:27 web01 systemd[520]: nginx.service: Failed with result 'exit-code'.
+Oct 20 03:06:27 web01 kernel[664]: Out of memory: Killed process 2211 (java)
+Oct 20 03:08:24 web01 systemd[657]: Started Daily apt download activities.
+Oct 20 03:13:31 web01 kernel[426]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 03:20:52 web01 kernel[833]: Out of memory: Killed process 2211 (java)
+Oct 20 03:34:12 web01 NetworkManager[628]: <info> device (eth0): state change: activated
+Oct 20 03:55:52 web01 kernel[179]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 03:56:33 web01 cron[521]: (CRON) info (No MTA installed)
+Oct 20 04:08:42 web01 NetworkManager[317]: <info> device (eth0): state change: activated
+Oct 20 04:14:44 web01 kernel[66]: Out of memory: Killed process 2211 (java)
+Oct 20 04:23:13 web01 systemd[308]: Started Daily apt download activities.
+Oct 20 04:30:34 web01 NetworkManager[641]: <info> device (eth0): state change: activated
+Oct 20 04:31:17 web01 NetworkManager[50]: <info> device (eth0): state change: activated
+Oct 20 04:38:26 web01 cron[911]: (CRON) info (No MTA installed)
+Oct 20 04:47:04 web01 postfix/smtp[742]: connect to mail.example.com: Connection timed out
+Oct 20 04:51:42 web01 systemd[802]: nginx.service: Failed with result 'exit-code'.
+Oct 20 04:53:17 web01 kernel[490]: Out of memory: Killed process 2211 (java)
+Oct 20 05:22:46 web01 systemd[733]: nginx.service: Failed with result 'exit-code'.
+Oct 20 05:27:13 web01 systemd[552]: Started Daily apt download activities.
+Oct 20 05:28:28 web01 kernel[7]: Out of memory: Killed process 2211 (java)
+Oct 20 05:29:21 web01 systemd[385]: nginx.service: Failed with result 'exit-code'.
+Oct 20 05:41:30 web01 kernel[865]: Out of memory: Killed process 2211 (java)
+Oct 20 05:43:19 web01 kernel[448]: Out of memory: Killed process 2211 (java)
+Oct 20 06:09:08 web01 cron[764]: (CRON) info (No MTA installed)
+Oct 20 06:21:12 web01 cron[935]: (CRON) info (No MTA installed)
+Oct 20 06:22:01 web01 postfix/smtp[477]: connect to mail.example.com: Connection timed out
+Oct 20 06:35:19 web01 kernel[83]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 06:35:48 web01 kernel[760]: Out of memory: Killed process 2211 (java)
+Oct 20 06:37:26 web01 kernel[672]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 06:53:53 web01 kernel[464]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 07:00:05 web01 cron[180]: (CRON) info (No MTA installed)
+Oct 20 07:21:18 web01 kernel[232]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 07:29:23 web01 kernel[108]: Out of memory: Killed process 2211 (java)
+Oct 20 07:51:09 web01 postfix/smtp[268]: connect to mail.example.com: Connection timed out
+Oct 20 07:55:11 web01 systemd[238]: nginx.service: Failed with result 'exit-code'.
+Oct 20 07:59:45 web01 systemd[660]: nginx.service: Failed with result 'exit-code'.
+Oct 20 08:10:59 web01 systemd[40]: Started Daily apt download activities.
+Oct 20 08:13:01 web01 systemd[127]: nginx.service: Failed with result 'exit-code'.
+Oct 20 08:30:07 web01 systemd[344]: nginx.service: Failed with result 'exit-code'.
+Oct 20 08:32:03 web01 systemd[913]: Started Daily apt download activities.
+Oct 20 08:32:10 web01 NetworkManager[768]: <info> device (eth0): state change: activated
+Oct 20 08:32:48 web01 systemd[948]: nginx.service: Failed with result 'exit-code'.
+Oct 20 08:38:38 web01 kernel[712]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 09:11:07 web01 systemd[966]: Started Daily apt download activities.
+Oct 20 09:14:03 web01 systemd[866]: nginx.service: Failed with result 'exit-code'.
+Oct 20 09:18:05 web01 kernel[270]: Out of memory: Killed process 2211 (java)
+Oct 20 09:22:17 web01 NetworkManager[729]: <info> device (eth0): state change: activated
+Oct 20 09:33:43 web01 NetworkManager[54]: <info> device (eth0): state change: activated
+Oct 20 09:46:52 web01 kernel[273]: Out of memory: Killed process 2211 (java)
+Oct 20 09:47:28 web01 kernel[652]: Out of memory: Killed process 2211 (java)
+Oct 20 09:52:06 web01 systemd[568]: nginx.service: Failed with result 'exit-code'.
+Oct 20 09:52:48 web01 systemd[696]: nginx.service: Failed with result 'exit-code'.
+Oct 20 09:54:51 web01 NetworkManager[447]: <info> device (eth0): state change: activated
+Oct 20 10:03:02 web01 kernel[703]: Out of memory: Killed process 2211 (java)
+Oct 20 10:05:23 web01 cron[808]: (CRON) info (No MTA installed)
+Oct 20 10:26:22 web01 systemd[940]: nginx.service: Failed with result 'exit-code'.
+Oct 20 10:27:31 web01 cron[536]: (CRON) info (No MTA installed)
+Oct 20 10:28:35 web01 systemd[996]: nginx.service: Failed with result 'exit-code'.
+Oct 20 10:33:16 web01 kernel[272]: Out of memory: Killed process 2211 (java)
+Oct 20 10:34:16 web01 NetworkManager[303]: <info> device (eth0): state change: activated
+Oct 20 10:36:07 web01 postfix/smtp[658]: connect to mail.example.com: Connection timed out
+Oct 20 10:57:37 web01 systemd[951]: nginx.service: Failed with result 'exit-code'.
+Oct 20 11:04:32 web01 systemd[989]: Started Daily apt download activities.
+Oct 20 11:12:28 web01 kernel[916]: Out of memory: Killed process 2211 (java)
+Oct 20 11:56:01 web01 systemd[223]: nginx.service: Failed with result 'exit-code'.
+Oct 20 12:05:25 web01 systemd[88]: Started Daily apt download activities.
+Oct 20 12:09:25 web01 systemd[902]: nginx.service: Failed with result 'exit-code'.
+Oct 20 12:17:52 web01 postfix/smtp[520]: connect to mail.example.com: Connection timed out
+Oct 20 12:41:40 web01 cron[16]: (CRON) info (No MTA installed)
+Oct 20 12:44:01 web01 systemd[174]: nginx.service: Failed with result 'exit-code'.
+Oct 20 12:45:50 web01 kernel[267]: Out of memory: Killed process 2211 (java)
+Oct 20 12:56:32 web01 systemd[927]: Started Daily apt download activities.
+Oct 20 13:08:55 web01 postfix/smtp[242]: connect to mail.example.com: Connection timed out
+Oct 20 13:14:41 web01 kernel[862]: Out of memory: Killed process 2211 (java)
+Oct 20 13:16:27 web01 systemd[762]: nginx.service: Failed with result 'exit-code'.
+Oct 20 13:19:53 web01 NetworkManager[208]: <info> device (eth0): state change: activated
+Oct 20 13:42:42 web01 systemd[968]: nginx.service: Failed with result 'exit-code'.
+Oct 20 13:56:58 web01 systemd[164]: nginx.service: Failed with result 'exit-code'.
+Oct 20 14:02:15 web01 postfix/smtp[765]: connect to mail.example.com: Connection timed out
+Oct 20 14:11:17 web01 systemd[937]: Started Daily apt download activities.
+Oct 20 14:19:20 web01 systemd[335]: nginx.service: Failed with result 'exit-code'.
+Oct 20 14:26:15 web01 NetworkManager[197]: <info> device (eth0): state change: activated
+Oct 20 14:27:58 web01 postfix/smtp[902]: connect to mail.example.com: Connection timed out
+Oct 20 15:13:01 web01 NetworkManager[399]: <info> device (eth0): state change: activated
+Oct 20 15:39:27 web01 kernel[337]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 15:49:53 web01 systemd[616]: nginx.service: Failed with result 'exit-code'.
+Oct 20 16:03:35 web01 systemd[245]: nginx.service: Failed with result 'exit-code'.
+Oct 20 16:09:32 web01 NetworkManager[389]: <info> device (eth0): state change: activated
+Oct 20 16:09:44 web01 systemd[930]: nginx.service: Failed with result 'exit-code'.
+Oct 20 16:51:36 web01 NetworkManager[873]: <info> device (eth0): state change: activated
+Oct 20 16:56:54 web01 NetworkManager[646]: <info> device (eth0): state change: activated
+Oct 20 17:10:23 web01 systemd[944]: nginx.service: Failed with result 'exit-code'.
+Oct 20 17:15:09 web01 kernel[710]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 17:27:40 web01 kernel[682]: Out of memory: Killed process 2211 (java)
+Oct 20 17:42:52 web01 systemd[862]: Started Daily apt download activities.
+Oct 20 18:04:25 web01 kernel[550]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 18:25:31 web01 systemd[481]: nginx.service: Failed with result 'exit-code'.
+Oct 20 18:28:00 web01 systemd[484]: nginx.service: Failed with result 'exit-code'.
+Oct 20 19:05:59 web01 kernel[860]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 19:22:04 web01 NetworkManager[544]: <info> device (eth0): state change: activated
+Oct 20 19:22:43 web01 kernel[715]: Out of memory: Killed process 2211 (java)
+Oct 20 19:43:35 web01 NetworkManager[7]: <info> device (eth0): state change: activated
+Oct 20 19:46:04 web01 kernel[879]: Out of memory: Killed process 2211 (java)
+Oct 20 19:54:43 web01 kernel[28]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 20:14:50 web01 postfix/smtp[448]: connect to mail.example.com: Connection timed out
+Oct 20 20:25:33 web01 systemd[979]: nginx.service: Failed with result 'exit-code'.
+Oct 20 20:50:45 web01 systemd[743]: Started Daily apt download activities.
+Oct 20 20:55:37 web01 kernel[240]: Out of memory: Killed process 2211 (java)
+Oct 20 21:02:35 web01 NetworkManager[585]: <info> device (eth0): state change: activated
+Oct 20 21:03:58 web01 cron[906]: (CRON) info (No MTA installed)
+Oct 20 21:08:35 web01 kernel[316]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 21:10:09 web01 postfix/smtp[809]: connect to mail.example.com: Connection timed out
+Oct 20 21:10:19 web01 postfix/smtp[218]: connect to mail.example.com: Connection timed out
+Oct 20 21:13:15 web01 kernel[401]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 21:24:32 web01 cron[638]: (CRON) info (No MTA installed)
+Oct 20 21:32:27 web01 NetworkManager[600]: <info> device (eth0): state change: activated
+Oct 20 21:37:06 web01 kernel[80]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 21:39:35 web01 NetworkManager[579]: <info> device (eth0): state change: activated
+Oct 20 21:59:46 web01 cron[933]: (CRON) info (No MTA installed)
+Oct 20 22:09:54 web01 kernel[176]: Out of memory: Killed process 2211 (java)
+Oct 20 22:20:38 web01 systemd[149]: nginx.service: Failed with result 'exit-code'.
+Oct 20 22:21:13 web01 kernel[34]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 22:25:05 web01 systemd[28]: Started Daily apt download activities.
+Oct 20 22:32:37 web01 systemd[115]: Started Daily apt download activities.
+Oct 20 22:39:06 web01 NetworkManager[110]: <info> device (eth0): state change: activated
+Oct 20 22:56:11 web01 NetworkManager[637]: <info> device (eth0): state change: activated
+Oct 20 23:00:15 web01 postfix/smtp[952]: connect to mail.example.com: Connection timed out
+Oct 20 23:07:31 web01 cron[166]: (CRON) info (No MTA installed)
+Oct 20 23:08:18 web01 NetworkManager[354]: <info> device (eth0): state change: activated
+Oct 20 23:17:54 web01 kernel[146]: Out of memory: Killed process 2211 (java)
+Oct 20 23:18:21 web01 kernel[718]: EXT4-fs error (device sda1): ext4_find_entry:1455
+Oct 20 23:27:04 web01 systemd[30]: nginx.service: Failed with result 'exit-code'.
+Oct 20 23:30:40 web01 systemd[32]: Started Daily apt download activities.
+Oct 20 23:31:53 web01 NetworkManager[43]: <info> device (eth0): state change: activated
+Oct 20 23:58:31 web01 kernel[142]: EXT4-fs error (device sda1): ext4_find_entry:1455

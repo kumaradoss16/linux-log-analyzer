@@ -1,0 +1,26 @@
+apt = ["build-system"]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log-analyzer"
+version = "0.2.0"
+description = "Analyze Linux auth, system and web logs: logins, top IPs/users, errors, time distribution."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "mypy"]
+
+[project.scripts]
+logan = "log_analyzer.cli:main"
+logan-web = "log_analyzer.web:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+log_analyzer = ["static/*"]
+
+[tool.ruff]
+line-length = 100
